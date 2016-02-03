@@ -1,0 +1,12 @@
+#form{
+    height: 100%;
+    padding: 10px;
+}
+.form-item.multi-line{
+    margin-top: 10px;
+}
+.btn{
+    padding: 5px;
+    border-radius: 4px;
+    width: 100px;
+}

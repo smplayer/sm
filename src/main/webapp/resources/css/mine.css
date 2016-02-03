@@ -1,0 +1,59 @@
+a:link {
+    color: #555;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #555;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #555;
+    text-decoration: none;
+}
+
+a:active {
+    color: #555;
+    text-decoration: none;
+}
+
+.profile{
+    padding: 10px;
+    text-align: center;
+    overflow: hidden;
+    background-color: #a0b464;
+}
+.profile .nickname{
+    color: #fff;
+    font-size: 12px;
+}
+.profile .photo{
+    width: 80px;
+    height: 80px;
+    background-color: #fff;
+}
+.profile .photo .icon{
+    font-size: 72px;
+    line-height: 72px;
+}
+
+/*functionList*/
+.functionList {
+}
+.functionList .group{
+    background-color: #fff;
+    margin-top: 10px;
+}
+.functionList .function{
+    border-bottom: 1px solid #eee;
+    padding: 10px;
+}
+.functionList .function .icon{
+    /*line-height: 30px;*/
+    font-size: 14px;
+}
+.logout{
+    text-align: center;
+    color: red;
+}

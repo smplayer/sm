@@ -1,0 +1,62 @@
+a.material-details{
+    color: #fff;
+}
+#form, #dependency-list {
+    height: 100%;
+}
+
+.tr {
+    display: table-row;
+}
+
+.th, .td {
+    display: table-cell;
+    padding: 5px 0;
+}
+.th{
+    border-bottom: 1px solid #aaa;
+}
+.tr:not(:last-child) .td {
+    border-bottom: 1px solid #ccc;
+}
+
+#dependency-list {
+    padding: 10px;
+}
+
+#dependency-list .name {
+    width: 45%;
+}
+
+#dependency-list .stock {
+    width: 15%;
+}
+
+#dependency-list .quantity {
+    width: 16%;
+}
+
+#dependency-list .unit {
+    width: 12%;
+}
+
+#dependency-list .operation {
+    width: 12%;
+}
+
+#dependency-list .quantity input {
+    width: 70%;
+}
+
+#select-dependency {
+    padding: 5px;
+    width: 100px;
+    border-radius: 4px;
+    display: inline-block;
+}
+
+#submit {
+    padding: 5px;
+    width: 100px;
+    border-radius: 4px;
+}

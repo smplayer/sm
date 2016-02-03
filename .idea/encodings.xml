@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$/src/main/java/com/sm/common/Order.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/sm/common/OrderHolder.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/sm/common/Query.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/sm/common/criterion/BetweenExpression.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/sm/common/criterion/Conjunction.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/sm/common/criterion/Criterion.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/sm/common/criterion/Disjunction.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/sm/common/criterion/InExpression.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/sm/common/criterion/Junction.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/sm/common/criterion/Limit.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/sm/common/criterion/NotNullExpression.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/sm/common/criterion/NullExpression.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/sm/common/criterion/PropertyExpression.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/sm/common/criterion/Restrictions.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/sm/common/criterion/SimpleExpression.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContext.xml" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/defaultDispatcher-servlet.xml" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>

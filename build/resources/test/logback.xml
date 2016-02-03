@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+    <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder class="ch.qos.logback.classic.encoder.PatternLayoutEncoder">
+            <pattern>%d{yyyy/MM/dd-HH:mm:ss.SSS} %level [%thread] %class:%line  >>>>>  %msg%n</pattern>
+            <!--<pattern>%d{HH:mm:ss.SSS} %level %class:%line  >>>>>  %msg%n</pattern>-->
+            <!--<pattern>%level :product-%class:%line  >>>>>  %msg%n</pattern>-->
+            <!--<pattern>%d{yyyy/MM/dd-HH:mm:ss.SSS} [%thread] %class:%line%n    %level-:product>>>>>  %msg%n</pattern>-->
+            <!--<pattern>%level-:erp>>>>> %msg >>>>>%d{yyyy/MM/dd-HH:mm:ss.SSS} [%thread] %class:%line%n</pattern>-->
+        </encoder>
+    </appender>
+
+    <!-- lev TRACE, DEBUG, INFO, WARN, ERROR, ALL 和 OFF -->
+    <!-- java中的包 不指定级别，不指定appender 提交到root -->
+    <logger name="com.sm"/>
+    <!--类的全路径 指定级别，指定appender additivity="false"表示不提交到上级处理-->
+    <!--<logger name="com.sm.Test" level="DEBUG" additivity="false">-->
+    <!--<appender-ref ref="STDOUT"/>-->
+    <!--</logger>-->
+    <!--<logger name="org.springframework" level="DEBUG" additivity="false">-->
+    <!--<appender-ref ref="STDOUT"/>-->
+    <!--</logger>-->
+    <!--<logger name="com.sm" level="DEBUG" additivity="false">-->
+    <!--<appender-ref ref="STDOUT"/>-->
+    <!--</logger>-->
+
+    <root level="INFO">
+        <appender-ref ref="STDOUT"/>
+    </root>
+</configuration>
+
+<!--配置文件放在另一个比如 etc 或 properties 目录，但在Eclipse中将其设置为source目录即可。
+如果是发布，可以单独打成一个jar包，也可以直接合并到class的jar中打包；或者为了便于修改，放到系统CLASSPATH指定的某个位置上。-->

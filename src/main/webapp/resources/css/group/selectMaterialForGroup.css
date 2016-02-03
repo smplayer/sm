@@ -1,0 +1,35 @@
+#form {
+    height: 100%;
+}
+
+#submit {
+    padding: 5px;
+    border-radius: 4px;
+    width: 100px;
+}
+
+.module.root .top {
+    background-color: #fff;
+    border-bottom: 1px solid #555;
+}
+
+.category-name {
+    padding: 10px;
+    background-color: #fff;
+    border-bottom: 1px solid #aaa;
+}
+
+.list-item {
+    padding-left: 30px;
+    padding-right: 40px;
+}
+
+.list-item .wrapper-text {
+    width: 100%;
+}
+
+.list-item input {
+    margin-right: -30px;
+    width: 20px;
+    height: 20px;
+}

@@ -1,0 +1,72 @@
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    /*color: #00FF00;*/
+    text-decoration: none;
+}
+
+a:hover {
+    /*color: #ffffff;*/
+    text-decoration: none;
+}
+
+a:active {
+    /*color: #0000FF;*/
+    text-decoration: none;
+}
+
+body {
+    padding-bottom: 55px;
+    font-family: 'microsoft yahei', Verdana, Arial, Helvetica, sans-serif;
+}
+
+hr {
+    margin: 10px 0px;
+}
+i{
+    font-style: normal;
+}
+.sm-hidden {
+    display: none;
+}
+
+.sm-fixed {
+    position: fixed;
+}
+
+.sm-float-left {
+    float: left;
+}
+
+.sm-float-right {
+    float: right;
+}
+.sm-clear{
+    clear: both;
+}
+.sm-block{
+    display: block;
+}
+.sm-wrapper{
+    overflow: hidden;
+}
+
+.sm-pick .sm-icon{
+    display: block;
+}
+.sm-icon-home:before { content: "\e6e5"; }
+.sm-icon-cart:before { content: "\e6a1"; }
+.sm-icon-list:before { content: "\e638"; }
+.sm-icon-mine:before { content: "\e658"; }
+.sm-icon-up:before { content: "\e66c"; }
+.sm-icon-checkbox-r.sm-checked:before { content: "\e619"; }
+.sm-icon-checkbox-r:before { content: "\e61a"; }
+.sm-icon-rmb:before { content: "\e61b"; }
+.sm-icon-receiver:before { content: "\e63c"; }
+.sm-icon-mobile:before { content: "\e61f"; }
+.sm-icon-phone:before { content: "\e611"; }
+.sm-icon-address:before { content: "\e624"; }
+.sm-icon-add:before { content: "\e629"; }
+.sm-icon-modify:before { content: "\e6d6"; }

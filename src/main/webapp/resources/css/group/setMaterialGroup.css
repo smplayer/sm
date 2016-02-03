@@ -1,0 +1,153 @@
+html, body{
+    height: 100%;
+}
+body{
+    padding-top: 40px;
+    font-size: 12px;
+}
+#header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    border-bottom: 1px solid #ddd;
+}
+/*.table{*/
+    /*width: 100%;*/
+/*}*/
+.tr{
+    display: table-header-group;
+}
+.th, .td{
+    display: table-cell;
+}
+
+#main{
+    background-color: #fff;
+    height: 100%;
+}
+#form{
+    overflow: hidden;
+    height: 100%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+#grouped-material-list{
+    height: 100%;
+    overflow: auto;
+    width: 100%;
+}
+#main  .wrapper-name{
+    height: 40px;
+    margin-top: -40px;
+    padding: 8px 10px;
+}
+#main .wrapper-name input{
+    width: 100%;
+}
+#form > .bottom{
+    height: 40px;
+    /*border-top: 1px solid #555;*/
+    text-align: center;
+    margin-bottom: -40px;
+}
+#select-material{
+    padding: 5px;
+    width: 100px;
+    border-radius: 4px;
+}
+#grouped-material-list, #existing-material-list{
+    height: 100%;
+    padding: 10px;
+    overflow: auto;
+}
+#grouped-material-list{
+    width: 100%;
+}
+#grouped-material-list .table{
+    width: 100%;
+}
+#grouped-material-list .tr{
+    display: table-row;
+}
+#grouped-material-list .th, #grouped-material-list .td{
+    padding: 5px;
+}
+#grouped-material-list .th{
+    /*background-color: #ddd;*/
+    border-bottom: 1px solid #555;
+}
+#grouped-material-list .td{
+    text-align: left;
+    /*background-color: #ddd;*/
+    border-bottom: 1px solid #eee;
+}
+#grouped-material-list .name{
+    width: 50%;
+}
+#grouped-material-list .quantity{
+    width: 20%;
+}
+#grouped-material-list .unit{
+    width: 15%;
+}
+#grouped-material-list .operation{
+    width: 15%;
+}
+#grouped-material-list .quantity input{
+    width: 100%;
+}
+#grouped-material-list li, #existing-material-list li{
+    padding: 5px 0;
+    border-bottom: 1px solid #ddd;
+    overflow: hidden;
+}
+
+#existing-material-list .material-list{
+    padding-left: 10px;
+}
+#existing-material-list .category-name{
+    padding: 5px 0;
+    border-bottom: 1px solid #ddd;
+}
+#existing-material-list li{
+    padding-right: 24px;
+}
+#existing-material-list li label{
+    width: 100%;
+}
+#existing-material-list li input[type="checkbox"]{
+    width: 20px;
+    height: 20px;
+    margin-right: -24px;
+}
+#material-selector{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 20%;
+    width: 80%;
+    background-color: #fff;
+    box-shadow: -5px 5px 5px #555;
+    padding-bottom: 40px;
+}
+#material-selector .main{
+    height: 100%;
+    overflow: auto;
+}
+#material-selector .bottom{
+    position: absolute;
+    height: 40px;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+#material-selector .confirm, #material-selector .cancel{
+    padding: 5px;
+    width: 100px;
+    border-radius: 4px;
+}
+#submit{
+    padding: 5px;
+    border-radius: 4px;
+    width: 100px;
+}

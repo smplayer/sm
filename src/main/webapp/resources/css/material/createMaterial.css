@@ -1,0 +1,17 @@
+html, body{
+    height: 100%;
+}
+body{
+    font-size: 12px;
+}
+#form{
+    height: 100%;
+    padding: 10px;
+}
+.form-item:not(:first-child){
+    margin-top: 10px;
+}
+#submit{
+    padding: 5px;
+    border-radius: 4px;
+}

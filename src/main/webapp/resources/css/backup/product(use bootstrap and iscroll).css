@@ -1,0 +1,149 @@
+
+
+.sm-fix-top.affix {
+    top: 0;
+    width: 100%;
+}
+.sm-fix-bottom.affix {
+    bottom: 0;
+    width: 100%;
+}
+.sm-topbar{
+    margin-bottom: 15px;
+}
+.sm-topbar, .sm-bottombar {
+    height: 50px;
+    line-height: 50px;
+    font-size: 12px;
+    color: #b0b0b0;
+    width: 100%;
+    background-color: black;
+    opacity: 1;
+    z-index: 10;
+}
+.sm-topbar .sm-nav{
+    float: left;
+    overflow: hidden;
+}
+
+.sm-topbar .sm-user{
+    position: relative;
+    float: right;
+    _display: inline;
+}
+.sm-topbar .sm-sep{
+    margin: 0 0.5em;
+    color: #424242;
+    font-family: sans-serif;
+    line-height: 40px;
+}
+
+.sm-group ul{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+}
+.sm-group .sm-valueList li{
+    float: left;
+    font-size: 12px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.sm-group .sm-valueList li a{
+    display: block;
+    min-width: 100px;
+    padding: 10px;
+    border: 1px #aaa solid;
+}
+.sm-group .sm-valueList li a.sm-selected{
+    border: 1px #ff7700 solid;
+    color: #ff7700;
+}
+.sm-desc.sm-name .sm-slogan{
+    margin: 0px;
+    padding: 0px;
+    color: #2aabd2;
+}
+.sm-details .sm-detail img{
+    max-width: 100%;
+}
+
+/*弹出层选项 可以上下滑动*/
+.sm-popupOptions.affix{
+    bottom: 50px;
+    width: 100%;
+    background-color: #555555;
+    padding: 10px;
+    overflow: hidden;
+}
+.sm-popupOptions.affix a{
+    color: #fff;
+}
+.sm-wrapper {
+    height: 200px;
+    position: relative;
+    overflow: hidden;
+
+    /* Prevent native touch events on Windows */
+    -ms-touch-action: none;
+
+    /* Prevent the callout on tap-hold and text selection */
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+
+    /* Prevent text resize on orientation change, useful for web-apps */
+    -webkit-text-size-adjust: none;
+    -moz-text-size-adjust: none;
+    -ms-text-size-adjust: none;
+    -o-text-size-adjust: none;
+    text-size-adjust: none;
+}
+
+.sm-scroller {
+    position: relative;
+
+    /* Prevent elements to be highlighted on tap */
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+
+    /* Put the scroller into the HW Compositing layer right from the start */
+    -webkit-transform: translateZ(0);
+    -moz-transform: translateZ(0);
+    -ms-transform: translateZ(0);
+    -o-transform: translateZ(0);
+    transform: translateZ(0);
+}
+
+/*bottombar*/
+.sm-fix-bottom {
+    bottom: 0;
+    width: 100%;
+}
+.sm-operations{
+    width: 42%;
+    float: left;
+    overflow: hidden;
+    text-align: center;
+}
+.sm-buy{
+    width: 58%;
+    float: left;
+    overflow: hidden;
+    text-align: center;
+    font-size: 15px;
+    color: #fff;
+}
+.sm-addToCart{
+    width: 50%;
+    float: left;
+    background-color: #ffb03f;
+}
+.sm-directBuy{
+    width: 50%;
+    float: left;
+    background-color: #f24b48;
+}

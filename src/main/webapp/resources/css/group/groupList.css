@@ -1,0 +1,53 @@
+
+a:link {
+    color: #555;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #555;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #555;
+    text-decoration: none;
+}
+
+a:active {
+    color: #555;
+    text-decoration: none;
+}
+
+body{
+    padding-top: 40px;
+}
+#header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    border-bottom: 1px solid #555;
+    padding: 0 40px;
+}
+#create-group{
+    margin-right: -30px;
+}
+#main{
+    height: 100%;
+    overflow: auto;
+}
+.list{
+    background-color: #fff;
+}
+.list .group-name{
+    width: 100%;
+}
+.list .list-item a{
+    border-bottom: 1px solid #ddd;
+    overflow: hidden;
+    padding: 10px 40px 10px 10px;
+    width: 100%;
+}
+.list .list-item a .icon{
+    margin-right: -40px;
+}

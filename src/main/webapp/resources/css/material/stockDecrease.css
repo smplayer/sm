@@ -1,0 +1,112 @@
+.module.stockDecrease {
+    /*padding-top: 80px;*/
+    padding-bottom: 120px;
+    background-color: #fff;
+}
+
+.module.stockDecrease .top {
+    background-color: #999;
+    color: #555;
+    /*height: 80px;*/
+    /*margin-top: -80px;*/
+}
+
+.module.stockDecrease .bottom {
+    background-color: #999;
+    /*color: #555;*/
+    margin-bottom: -120px;
+    height: 120px;
+}
+.action-group{
+    border-bottom: 1px solid #aaa;
+    padding: 5px 10px 5px 120px;
+    text-align: left;
+    overflow: auto;
+    line-height: 28px;
+}
+.superior-stock{
+    margin-left: -110px;
+    float: left;
+    text-align: left;
+}
+.decreaseQuantity-wrapper {
+    float: left;
+    width: 100%;
+    text-align: right;
+}
+
+.dependency-list-title {
+    line-height: 40px;
+    text-align: left;
+    padding-left: 10px;
+    background-color: #aaa;
+}
+
+.decreaseQuantity-wrapper input {
+    width: 30%;
+}
+
+#form {
+    height: 100%;
+}
+
+.tr {
+    display: table-row;
+}
+
+.th, .td {
+    display: table-cell;
+    padding: 5px 0;
+}
+
+.th {
+    border-bottom: 1px solid #aaa;
+}
+
+.tr:not(:last-child) .td {
+    border-bottom: 1px solid #ccc;
+}
+
+#dependency-list {
+    padding: 10px 10px 10px 20px;
+}
+
+#dependency-list .name {
+    width: 50%;
+}
+
+#dependency-list .stock {
+    width: 20%;
+}
+
+#dependency-list .quantity {
+    width: 20%;
+}
+
+#dependency-list .unit {
+    width: 10%;
+}
+
+#dependency-list .quantity input {
+    width: 70%;
+}
+
+#decreaseOption{
+    padding: 10px;
+    /*border-bottom: 1px solid #ccc;*/
+    text-align: left;
+    color: #000;
+}
+
+#decreaseOption .title{
+}
+
+#decreaseOption .option{
+    padding: 0 5px;
+}
+
+#submit {
+    padding: 5px;
+    width: 100px;
+    border-radius: 4px;
+}

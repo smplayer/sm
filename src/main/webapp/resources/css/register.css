@@ -1,0 +1,42 @@
+body {
+
+}
+
+#main{
+    padding: 10px;
+}
+#logging{
+    background-color: #fff;
+    padding: 10px;
+}
+.content{
+    margin-top: 10px;
+}
+.module-input{
+    /*padding: 10px;*/
+}
+#username, #password, #repeated-password{
+    width: 100%;
+    height: 40px;
+    outline-style: none;
+    padding: 10px;
+}
+#username{
+    margin-bottom: 10px;
+}
+.module-action{
+    margin-top: 10px;
+    overflow: hidden;
+}
+.module-action .wrapper-btn{
+    text-align: center;
+}
+.register{
+    border-radius: 4px;
+    width: 100%;
+    padding: 10px;
+}
+.login{
+    text-align: right;
+    padding: 10px;
+}

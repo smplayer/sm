@@ -1,0 +1,39 @@
+body {
+}
+
+#create-material {
+    color: #fff;
+}
+
+#material-list {
+}
+
+.categorized {
+    margin-top: 10px;
+    background-color: #fff;
+}
+
+.category-name {
+    padding: 10px;
+    background-color: #aaa;
+}
+
+.list-item {
+}
+
+.material-name{
+}
+
+.material-stock{
+    margin-right: 10px;
+}
+
+.list-item .link-modify-dependency {
+    line-height: 40px;
+    padding-left: 20px;
+}
+
+.list-item .link-modify-dependency .icon {
+    font-size: 24px;
+    /*padding: 2px;*/
+}

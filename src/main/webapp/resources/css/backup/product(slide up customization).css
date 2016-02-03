@@ -1,0 +1,126 @@
+body {
+    padding-bottom: 80px;
+}
+#summary {
+    background-color: #fff;
+}
+
+#summary .img.wrapper {
+    width: 100%;
+    background-color: #ccc;
+}
+
+#summary .img.wrapper img {
+    width: 100%;
+    height: auto;
+}
+
+#summary .text.list.wrapper {
+    padding-left: 10px;
+}
+
+#summary .name {
+    color: #555;
+    font-size: 14px;
+    line-height: 18px;
+    padding: 5px 0;
+}
+
+#summary .slogan {
+    color: #aaa;
+    font-size: 14px;
+    line-height: 18px;
+    padding: 0px 0 0px 5px;
+    border-left: 3px #aaa solid;
+}
+
+#summary .price {
+    color: #ff7700;
+    font-size: 14px;
+    line-height: 18px;
+    padding: 5px 0;
+}
+
+/*purchase*/
+#purchase {
+    padding-bottom: 40px;
+    height: 100%;
+}
+
+#purchase .bottom {
+    /*margin-bottom: -40px;*/
+    overflow: hidden;
+    background-color: RGBA(0, 0, 0, 0.8) !important;
+    margin-bottom: -40px;
+}
+
+#purchase .customization, #purchase .customization .table {
+    height: 100%;
+}
+
+#purchase .customization .table .table-cell {
+    vertical-align: bottom;
+}
+#purchase .customization .table-cell .wrapper {
+    padding: 10px;
+    max-height: 100%;
+    background-color: #fff;
+    box-shadow: 0 -4px 16px #888;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+#purchase .btn.addToCart {
+    height: 40px;
+    line-height: 40px;
+    width: 30%;
+    background-color: #f24b48;
+    text-align: center;
+    color: #fff;
+}
+
+#purchase .price {
+    font-size: 18px;
+    height: 40px;
+    line-height: 40px;
+    text-align: right;
+    margin-right: 10px;
+    color: #fff;
+}
+
+/* customization*/
+.customization{
+    background-color: #fff;
+    padding: 10px;
+    margin-top: 10px;
+}
+.customization .name{
+    padding-bottom: 5px;
+    border-bottom: 1px #ddd solid;
+    margin-bottom: 10px;
+}
+.customization .singleSelection li{
+    float: left;
+    font-size: 12px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    padding: 8px;
+    border-radius: 0px;
+    /*background-color: lightskyblue;*/
+    color: #555;
+    text-align: center;
+    border: 1px solid #cccccc;
+    min-width: 31%;
+}
+.customization .singleSelection li.selected{
+    border: 1px solid #ff7700;
+}
+
+/*details*/
+.details{
+    margin-top: 10px;
+    background-color: #fff;
+}
+.details img{
+    max-width: 100%;
+}

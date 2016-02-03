@@ -1,0 +1,281 @@
+body{
+    background-color: #eee;
+}
+#sm-header{
+    /*height: 40px;*/
+    text-align: center;
+    font-size: 14px;
+    line-height: 40px;
+    background-color: #fff;
+}
+.sm-module{
+    margin: 10px 0 0 0;
+}
+
+/*contact area*/
+#sm-contactArea{
+    /*padding: 10px;*/
+    background-color: #fff;
+}
+#sm-contactList{
+    width: 100%;
+    bottom: 0;
+    top: 0;
+    background-color: #eee;
+    overflow: scroll;
+    z-index: 9999;
+}
+#sm-contactList > .sm-wrapper{
+    padding: 10px 6px 10px 6px;
+}
+.sm-contact.sm-item{
+    /*border-bottom: 1px #ccc solid;*/
+    padding: 10px;
+    padding-right: 30px;
+    overflow: hidden;
+    color: #555;
+    background-color: #fff;
+    margin-bottom: 10px;
+    box-shadow: 4px 4px 12px #ccc;
+}
+#sm-contactList .sm-contact.sm-item.sm-checked{
+    /*border-bottom: 1px #ccc solid;*/
+    border: 1px #ff7700 solid;
+}
+.sm-contact.sm-item .sm-content{
+    width: 100%;
+}
+.sm-contact.sm-item .sm-receiver{
+    margin-right: 15px;
+}
+.sm-contact.sm-item > .sm-modify{
+    margin-right: -22px;
+    position: relative;
+}
+.sm-contact.sm-item > .sm-modify .sm-icon{
+    margin-right: 0;
+    font-size: 22px;
+    color: #555;
+}
+.sm-contact.sm-item .sm-icon{
+    color: #ff7700;
+    font-size: 18px;
+}
+.sm-contact.sm-item .sm-content > .sm-wrapper{
+    padding-left: 25px;
+}
+.sm-contact.sm-item .sm-content > .sm-wrapper .sm-icon{
+    margin-left: -25px;
+}
+
+/*shopping cart item list*/
+#sm-itemList {
+    padding: 0 6px;
+}
+
+#sm-itemList .sm-item {
+    padding: 10px 10px 10px 10px;
+    margin-bottom: 15px;
+    background-color: #fff;
+    box-shadow: 4px 4px 12px #ccc;
+    /*border-radius: 8px;*/
+}
+
+#sm-itemList .sm-overview {
+    padding-left: 120px;
+    overflow: hidden;
+}
+
+
+#sm-itemList .sm-overview .sm-pick {
+    margin-left: -120px;
+    width: 30px;
+    height: 100%;
+    overflow: hidden;
+}
+#sm-itemList .sm-overview .sm-pick .sm-icon {
+    margin-top: 30px;
+    margin-left: 0px;
+    display: block;
+    font-size: 24px;
+    color: #2aabd2;
+    /*width: 20px;*/
+    /*height: 20px;*/
+}
+#sm-itemList .sm-overview .sm-pick input[type="checkbox"] {
+    margin-top: 30px;
+    margin-left: 0px;
+    width: 20px;
+    height: 20px;
+}
+
+#sm-itemList .sm-overview .sm-img-box {
+    width: 80px;
+    height: 80px;
+    margin-left: -90px;
+}
+
+#sm-itemList .sm-overview .sm-img-box img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+#sm-itemList .sm-overview .sm-desc {
+    width: 100%;
+    height: 80px;
+    position: relative;
+}
+
+#sm-itemList .sm-overview .sm-desc .sm-title {
+    color: #555;
+    height: 30px;
+    max-height: 30px;
+    font-size: 13px;
+    line-height: 15px;
+    text-align: left;
+    vertical-align: middle;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-pack: center;
+    -webkit-box-align: start;
+}
+
+#sm-itemList .sm-overview .sm-desc .sm-priceAndQuantity {
+    color: #555;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    text-align: right;
+}
+
+#sm-itemList .sm-overview .sm-desc .sm-priceAndQuantity .sm-price {
+    /*line-height: 26px;*/
+    font-size: 13px;
+    color: #d54e21;
+}
+
+#sm-itemList .sm-overview .sm-desc .sm-quantity input[type="text"] {
+    width: 30px;
+    height: 26px;
+    line-height: 26px;
+    text-align: center;
+    border: 0;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+
+}
+
+.sm-btn.sm-decrease, .sm-btn.sm-increase {
+    display: inline-block;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    line-height: 22px;
+    width: 30px;
+    height: 26px;
+    text-align: center;
+    border-radius: 2px 0 0 2px;
+    touch-action: manipulation;
+}
+
+.sm-btn.sm-decrease {
+    border-radius: 2px 0 0 2px;
+}
+
+.sm-btn.sm-increase {
+    border-radius: 0 2px 2px 0;
+}
+
+.sm-quantity a:link, .sm-quantity a:visited, .sm-quantity a:hover, .sm-quantity a:active {
+    color: #000;
+    text-decoration: none;
+}
+
+.sm-customized ul{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    padding-left: 30px;
+}
+.sm-customized li{
+    float: left;
+    font-size: 12px;
+    margin-right: 4px;
+    margin-bottom: 4px;
+    padding: 3px;
+    border-radius: 2px;
+    /*background-color: lightskyblue;*/
+    color: #666;
+    text-align: center;
+    border: 1px solid #cccccc;
+}
+
+/*bottombar*/
+#sm-bottombar{
+    bottom: 0;
+    width: 100%;
+}
+#sm-bottombar .sm-orderArea {
+    background-color: RGBA(0,0,0,0.8)!important;
+    font-size: 15px;
+    color: #fff;
+    text-align: center;
+    padding-left: 40px;
+    overflow: hidden;
+}
+#sm-bottombar .sm-orderArea .sm-buy{
+    height: 40px;
+    line-height: 40px;
+    width: 30%;
+    background-color: #f24b48;
+    overflow: hidden;
+}
+#sm-bottombar .sm-orderArea .sm-pick{
+    margin-left: -30px;
+    width: 30px;
+    height: 100%;
+    overflow: hidden;
+}
+#sm-bottombar .sm-orderArea .sm-pick .sm-icon {
+    margin-top: 10px;
+    margin-left: 0px;
+    font-size: 24px;
+    color: #f24b48;
+}
+#sm-bottombar .sm-orderArea .sm-sum {
+    padding-left: 10px;
+    width: 70%;
+}
+#sm-bottombar .sm-orderArea .sm-sum .sm-price {
+    font-size: 18px;
+    height: 40px;
+    line-height: 40px;
+    text-align: right;
+    padding-right: 10px;
+}
+/* commonArea */
+#sm-bottombar .sm-commonArea {
+    background-color: #ccc;
+    overflow: hidden;
+}
+#sm-bottombar .sm-commonArea .sm-navItem {
+    float: left;
+    width: 20%;
+    text-align: center;
+    padding: 2px 0;
+}
+#sm-bottombar .sm-commonArea .sm-navItem a{
+    display: block;
+    /*line-height: 40px;*/
+    color: #555;
+    font-size: 12px;
+}
+#sm-bottombar .sm-commonArea .sm-navItem a span{
+    display: block;
+    transform:scale(0.625);
+    line-height: 10px;
+    /*margin-top: -2px;*/
+    /*color: #000;*/
+}

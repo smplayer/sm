@@ -1,0 +1,26 @@
+body{
+}
+.root.module .top{
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.list{
+    background-color: #fff;
+}
+.list-item .category-name{
+    width: 100%;
+    padding-left: 10px;
+}
+.list .list-item{
+    border-bottom: 1px solid #ddd;
+    overflow: hidden;
+    padding-right: 90px;
+    line-height: 40px;
+}
+.list .list-item .get-sub{
+    margin-right: -90px;
+}
+
+#create-category{
+    color: #fff;
+}
